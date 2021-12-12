@@ -4,7 +4,7 @@ import os
 import logging
 import datetime
 from PIL import Image
-from utility import configure_logging
+from utils import configure_logging
 
 libdir = "./lib/e-Paper/RaspberryPi_JetsonNano/python/lib"
 if os.path.exists(libdir):
